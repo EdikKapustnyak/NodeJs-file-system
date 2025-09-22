@@ -12,3 +12,4 @@ Below are some commands you might find useful for creating your project:
 
 "npm i pino" - Used to log requests, errors, and server events in a nice, structured way.
 
+To avoid code duplication when writing controllers, we will create a helper function-wrapper Try...catch in the utilities "ctrlWrapper.js".
