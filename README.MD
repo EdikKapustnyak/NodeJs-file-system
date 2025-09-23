@@ -2,7 +2,9 @@ This repository is designed for quick file system use, allowing you to quickly a
 
 Below are some commands you might find useful for creating your project:
 
-"npm instal -y" - To initialize your project
+"npm init -y" - To initialize your project
+
+"npm install -y" - To initialize your project
 
 "npm i express" - Express is a convenient "constructor" for API 
 
