@@ -6,6 +6,8 @@ Below are some commands you might find useful for creating your project:
 
 "npm install -y" - To initialize your project
 
+"npm i --save-dev nodemon"
+
 "npm i express" - Express is a convenient "constructor" for API 
 
 "npm i dotenv" - Dotenv to store and load environment variables
@@ -13,5 +15,9 @@ Below are some commands you might find useful for creating your project:
 "npm i cors" - Middleware for Express that enables CORS (Cross-Origin Resource Sharing)
 
 "npm i pino" - Used to log requests, errors, and server events in a nice, structured way.
+
+"npm install pino-http" - Needed for logging requests/responses in Express, convenient debugging and monitoring of server operation.
+
+"npm install pino-pretty" - Used in conjunction with pino or pino-http to ensure that logs are nicely formatted and readable in the console.
 
 To avoid code duplication when writing controllers, we will create a helper function-wrapper Try...catch in the utilities "ctrlWrapper.js".
