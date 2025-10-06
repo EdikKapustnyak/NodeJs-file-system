@@ -2,13 +2,24 @@ This repository is designed for quick file system use, allowing you to quickly a
 
 Below are some commands you might find useful for creating your project:
 
-"npm instal -y" - To initialize your project
+"npm init -y" - To initialize your project,
 
-"npm i express" - Express is a convenient "constructor" for API 
+"npm install -y" - To initialize your project,
 
-"npm i dotenv" - Dotenv to store and load environment variables
+"npm i --save-dev nodemon" - A tool for automatically restarting a Node.js server when files are changed,
 
-"npm i cors" - Middleware for Express that enables CORS (Cross-Origin Resource Sharing)
+"npm i express" - Express is a convenient "constructor" for API,
 
-"npm i pino" - Used to log requests, errors, and server events in a nice, structured way.
+"npm i dotenv" - Dotenv to store and load environment variables,
 
+"npm i cors" - Middleware for Express that enables CORS (Cross-Origin Resource Sharing),
+
+"npm i pino" - Used to log requests, errors, and server events in a nice, structured way,
+
+"npm install pino-http" - Needed for logging requests/responses in Express, convenient debugging and monitoring of server operation,
+
+"npm install pino-pretty" - Used in conjunction with pino or pino-http to ensure that logs are nicely formatted and readable in the console,
+
+"npm i joi" - a library for data validation in the JavaScript environment, in particular in Node.js.
+
+To avoid code duplication when writing controllers, we will create a helper function-wrapper Try...catch in the utilities "ctrlWrapper.js".
