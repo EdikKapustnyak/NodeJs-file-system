@@ -23,3 +23,10 @@ Below are some commands you might find useful for creating your project:
 "npm i joi" - a library for data validation in the JavaScript environment, in particular in Node.js.
 
 To avoid code duplication when writing controllers, we will create a helper function-wrapper Try...catch in the utilities "ctrlWrapper.js".
+
+In the middleware files, you'll find files such as:
+
+errorHandler and notFoundHandler, which handle errors when accessing the database,  
+As well as isValidId and validateBody - which check your validation.
+
+A small addition to the utilities was also made, adding two files: calculatePaginationData and parsePaginationParams, which allow you to add pagination to your database.
