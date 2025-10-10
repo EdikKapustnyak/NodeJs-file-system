@@ -20,7 +20,9 @@ Below are some commands you might find useful for creating your project:
 
 "npm install pino-pretty" - Used in conjunction with pino or pino-http to ensure that logs are nicely formatted and readable in the console,
 
-"npm i joi" - a library for data validation in the JavaScript environment, in particular in Node.js.
+"npm i joi" - A library for data validation in the JavaScript environment, in particular in Node.js.
+
+"npm i bcrypt" - Used for hashing when storing the password
 
 To avoid code duplication when writing controllers, we will create a helper function-wrapper Try...catch in the utilities "ctrlWrapper.js".
 
